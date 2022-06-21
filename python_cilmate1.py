@@ -18,7 +18,7 @@ cred = credentials.Certificate('serviceAccount.json')
 
 
 # 初始化firebase，注意不能重複初始化
-#firebase_admin.initialize_app(cred)
+firebase_admin.initialize_app(cred)
 
 # 初始化firestore
 db = firestore.client()
