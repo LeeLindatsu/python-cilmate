@@ -24,7 +24,7 @@ from firebase_admin import firestore
 
 # 引用私密金鑰
 # path/to/serviceAccount.json 請用自己存放的路徑
-cred = credentials.Certificate('/Users/linda/Desktop/python/exam/python-cilmate/serviceAccount.json')
+cred = credentials.Certificate('serviceAccount.json')
 
 
 # 初始化firebase，注意不能重複初始化
