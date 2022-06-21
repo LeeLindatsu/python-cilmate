@@ -1,0 +1,4 @@
+firebase_admin
+BeautifulSoup
+selenium
+time
